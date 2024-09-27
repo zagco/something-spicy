@@ -5,8 +5,6 @@ import Chips from "@/components/Chips";
 import AllSpices from "@/components/AllSpices";
 import AllSpices2 from "@/components/AllSpices2";
 import AllSpices3 from "@/components/AllSpices3";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Footer from "@/components/Footer";
 
 

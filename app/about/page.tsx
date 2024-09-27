@@ -1,6 +1,6 @@
 'use client'
 
-import React, {useState} from 'react';
+import React from 'react';
 import Image from 'next/image';
 import company1 from "@/components/images/company1.jpg"
 import company2 from "@/components/images/company2.png"
@@ -67,7 +67,7 @@ const About: React.FC = () => {
             <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
               <h4 className="text-xl font-semibold mb-4">Our Vision</h4>
               <p>
-              At Something Spicy, we envision a world where high-quality, flavorful ingredients are accessible to all. We aim to 
+              At Something Spicy SA, we envision a world where high-quality, flavorful ingredients are accessible to all. We aim to 
               be more than just a place to buy spices—we want to be a trusted source for products that enhance every meal, 
               bring people together, and make everyday cooking an adventure. As we continue to expand, 
               our goal is to grow with our community, always keeping affordability and exceptional taste within reach for everyone.
