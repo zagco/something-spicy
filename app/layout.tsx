@@ -19,7 +19,7 @@ const raleway_font = Raleway({
 
 export const metadata: Metadata = {
   title: "Something Spicy SA",
-  description: "Quality spices and snacks at affordable prices",
+  description: "Quality or Nothing",
 };
 
 export default function RootLayout({
