@@ -21,6 +21,7 @@ const About: React.FC = () => {
   { id: 3, message: "I bought spices from Something Spicy, and they are amazing! The spices smell so good and make my food taste 10x better. I love them so much!", name: "Jabu" },
 
   { id: 4, message: " just wanna thank you for the amazing experience I had when I was buying my spices at Something Spice. You guys are friendly and very neat and clean. Keep the good work 💃🏿💃🏿", name: "Nokubonga" },
+  { id: 5, message: "Perfect service @spicy...combonation of their spices gives a divine smell, even to your neighbours🤭everlasting taste.", name: "Zipho" },
 ];
 
   

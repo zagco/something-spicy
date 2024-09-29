@@ -21,39 +21,46 @@ function Spices() {
       
 <Carousel className="mt-9 p-0">
   <CarouselContent>
-    <CarouselItem className="slide md:basis-1/2 lg:basis-1/3">
-        <h1  className="raleway text-2xl font-extrabold text-center lg:text-left">Tumeric</h1>
-        <Image className="rounded-3xl  mt-4" width={400} height={400} src={slide1} alt="slide" />
-        <p className="raleway text-center text-lg mt-3">
-        Bold, golden, and packed with goodness—our Turmeric adds rich flavor and vibrant color to any dish!
-        </p>
-    </CarouselItem>
+    <CarouselItem className="slide md:basis-1/2 lg:basis-1/3 flex flex-col items-center">
+    <h1 className="raleway text-2xl font-extrabold text-center">Tumeric</h1>
+    <div className="flex-grow flex items-center justify-center mt-4">
+        <Image className="rounded-3xl" width={400} height={400} src="https://firebasestorage.googleapis.com/v0/b/something-spicy.appspot.com/o/Tumeric_.png?alt=media&token=c56e3a36-a05c-4131-8deb-1f30e44cb526" alt="slide" />
+    </div>
+    <p className="raleway text-center text-lg mt-3">
+    Turmeric, the golden spice of life—warm, earthy flavors with a vibrant hue that adds color and vitality to every dish
+    </p>
+</CarouselItem>
+<CarouselItem className="slide md:basis-1/2 lg:basis-1/3 flex flex-col items-center">
+    <h1 className="raleway text-2xl font-extrabold text-center">Six Gun</h1>
+    <div className="flex-grow flex items-center justify-center mt-4">
+        <Image className="rounded-3xl" width={400} height={400} src="https://firebasestorage.googleapis.com/v0/b/something-spicy.appspot.com/o/sixgun-removebg-preview.png?alt=media&token=2b7220b1-2b90-4c66-b0a1-82df3242cc05" alt="slide" />
+    </div>
+    <p className="raleway text-center text-lg mt-3">
+    Kick up the flavor with Crown National's Six Gun Grill Spice—bold, smoky, and perfect for grilling any meat to perfection
+    </p>
+</CarouselItem>
 
-    <CarouselItem className="slide md:basis-1/2 lg:basis-1/3">
-    <h1 className="raleway text-2xl font-extrabold text-center lg:text-left">Six Gun</h1>
-        <Image className="rounded-3xl  mt-4"width={400} height={400} src={slide2} alt="slide"/>
-        <p className="raleway text-center text-lg mt-3">
-        Kick up the flavor with Crown National's Six Gun Grill Spice—bold, smoky, and perfect for grilling any meat to perfection
-        </p>
-    </CarouselItem>
+<CarouselItem className="slide md:basis-1/2 lg:basis-1/3 flex flex-col items-center">
+    <h1 className="raleway text-2xl font-extrabold text-center">Veggie Seasoning</h1>
+    <div className="flex-grow flex items-center justify-center mt-4">
+        <Image className="rounded-3xl" width={400} height={400} src="https://firebasestorage.googleapis.com/v0/b/something-spicy.appspot.com/o/veggei_.png?alt=media&token=413f572a-ecf6-4f1d-afc9-cc95bc2b9e0b" alt="slide" />
+    </div>
+    <p className="raleway text-center text-lg mt-3">
+    Add a burst of flavor to your veggies with our Veg Seasoning—a blend of herbs and spices that will make your veggies sing!
+    </p>
+</CarouselItem>
+<CarouselItem className="slide md:basis-1/2 lg:basis-1/3 flex flex-col items-center">
+    <h1 className="raleway text-2xl font-extrabold text-center">Hot Wet Masala</h1>
+    <div className="flex-grow flex items-center justify-center mt-4">
+        <Image className="rounded-3xl" width={400} height={400} src="https://firebasestorage.googleapis.com/v0/b/something-spicy.appspot.com/o/hot_wet_masala_.png?alt=media&token=b55165c8-a008-4bab-8c47-0d0c9700aed3" alt="slide" />
+    </div>
+    <p className="raleway text-center text-lg mt-3">
+    Hot Wet Masala: a bold, fiery blend with intense spices, perfect for rich, flavorful curries that pack serious heat and depth
+    </p>
+</CarouselItem>
 
-    <CarouselItem className="slide md:basis-1/2 lg:basis-1/3">
-        <div className="items-center">
-        <h1 className="raleway text-2xl  font-extrabold text-center lg:text-left">Veg Seasoning</h1>
-        <Image className="rounded-3xl  mt-4" width={400} height={400} src={slide3} alt="slide"/>
-        <p className="raleway text-center text-lg mt-3">
-        Add a burst of flavor to your veggies with our Veg Seasoning—a blend of herbs and spices that will make your veggies sing!
-        </p>
-       </div>
-    </CarouselItem>
 
-    <CarouselItem className="slide md:basis-1/2 lg:basis-1/3">
-    <h1 className="raleway text-2xl font-extrabold text-center lg:text-left">Hot Wet Masala</h1>
-    <Image className="rounded-3xl mt-4" width={400} height={400} src={slide4} alt="slide"/>
-        <p className="raleway text-center text-lg mt-3">
-        Turn up the heat with our Hot Wet Masala—rich, spicy, and full of bold, fiery flavors!
-        </p>
-    </CarouselItem>
+    
   </CarouselContent>
   <CarouselPrevious className="hidden lg:flex lg:ml-5"/>
   <CarouselNext className="hidden lg:flex lg:mr-5"/>
