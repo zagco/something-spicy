@@ -5,6 +5,8 @@ import Chips from "@/components/Chips";
 import AllSpices from "@/components/AllSpices";
 import AllSpices2 from "@/components/AllSpices2";
 import AllSpices3 from "@/components/AllSpices3";
+import AllSpices4 from "@/components/AllSpices4";
+import AllSpices5 from "@/components/AllSpices5";
 import Footer from "@/components/Footer";
 
 
@@ -41,6 +43,8 @@ export default async function Home() {
  
           <AllSpices2 />
           <AllSpices3 />
+          <AllSpices4 />
+          <AllSpices5 />
         
         <section>
           <Footer />

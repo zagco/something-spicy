@@ -1,5 +1,7 @@
 import React from 'react';
 import {InstagramIcon, FacebookIcon} from "lucide-react"
+import Image from 'next/image';
+import tiktok from './images/tik-tok.png'
 
 const Footer: React.FC = () => {
   return (
@@ -30,6 +32,7 @@ const Footer: React.FC = () => {
               <li><a href="https://web.facebook.com/profile.php?id=100085998387126" className="hover:underline"><FacebookIcon /></a></li>
               
               <li><a href="https://www.instagram.com/somethingspicysa_/" className="hover:underline"><InstagramIcon /></a></li>
+              <li><a href="https://www.tiktok.com/@somethingspicysa" className="hover:underline"><Image width={25} src={tiktok} alt="tiktok" /></a></li>
             </ul>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/4 mb-6">

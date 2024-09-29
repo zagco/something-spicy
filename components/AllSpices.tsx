@@ -21,7 +21,7 @@ const ProductsList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const collectionRef = collection(db, 'spices'); // Reference to the 'products' collection in Firestore
+        const collectionRef = collection(db, 'grains'); // Reference to the 'products' collection in Firestore
         const snapshot = await getDocs(collectionRef); // Fetch all documents in the 'products' collection
         const productList = snapshot.docs.map((doc) => ({
           ...doc.data(),
@@ -48,7 +48,7 @@ const ProductsList = () => {
 
       
 
-<h2 className='rakkas text-3xl mt-9'>Spices</h2>
+<h2 className='rakkas text-3xl mt-9'>Grains</h2>
 
 
     <div className='mt-9 flex overflow-x-scroll space-x-1 p-4 no-scrollbar'>

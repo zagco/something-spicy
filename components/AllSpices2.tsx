@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
-import LocationDrawer from './LocationDrawer';
+import LocationDrawer from './LocationDrawer'
 import { db } from '../config/firebase'; // Import your Firebase config
+
 
 interface Product {
   price: number;
@@ -20,7 +21,7 @@ const ProductsList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const collectionRef = collection(db, 'spices2'); // Reference to the 'products' collection in Firestore
+        const collectionRef = collection(db, 'masala'); // Reference to the 'products' collection in Firestore
         const snapshot = await getDocs(collectionRef); // Fetch all documents in the 'products' collection
         const productList = snapshot.docs.map((doc) => ({
           ...doc.data(),
@@ -43,12 +44,14 @@ const ProductsList = () => {
   }
 
   return (
-    <div className='-mt-4 p-4'>
+    <div className='p-4'>
 
       
 
+<h2 className='rakkas text-3xl mt-9'>Masalas</h2>
 
-    <div className='-mt-4 flex overflow-x-scroll space-x-1 p-4 no-scrollbar'>
+
+    <div className='mt-9 flex overflow-x-scroll space-x-1 p-4 no-scrollbar'>
      {products.map((product) => ( 
        <div className="object-contain lg:w-[17rem]  min-h-[40px] 
            transition-transform duration-[450ms]

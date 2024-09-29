@@ -48,7 +48,7 @@ const ProductsList = () => {
 
       
 
-<h2 className='rakkas text-red-700 text-2xl lg:text-3xl mt-9'>R12 Each 2 For R20 Any Chips</h2>
+<h2 className='raleway text-red-700  font-black text-2xl lg:text-3xl mt-9'>2 For R20 Any Chips R12 Each</h2>
 
 
     <div className='mt-9 flex overflow-x-scroll space-x-1 p-4 no-scrollbar'>

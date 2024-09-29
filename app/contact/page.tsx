@@ -57,6 +57,7 @@ const Contact: React.FC = () => {
             <ul className="flex space-x-4">
               <li><a href="https://web.facebook.com/profile.php?id=100085998387126" className="hover:underline">Facebook</a></li>
               <li><a href="https://www.instagram.com/somethingspicysa_/" className="hover:underline">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@somethingspicysa" className="hover:underline">TikTok</a></li>
             </ul>
           </div>
         </div>
