@@ -8,6 +8,7 @@ import AllSpices3 from "@/components/AllSpices3";
 import AllSpices4 from "@/components/AllSpices4";
 import AllSpices5 from "@/components/AllSpices5";
 import Footer from "@/components/Footer";
+import VideoPlayer from '@/components/Video';
 
 
 
@@ -26,6 +27,10 @@ export default async function Home() {
         <section>
          <Spices />  
         </section>
+        <div className="container mx-auto p-4">
+
+      <VideoPlayer src="/videos/test.mp4" />
+    </div>
 
         <section>
           <AllProducts />
@@ -49,6 +54,7 @@ export default async function Home() {
         <section>
           <Footer />
         </section>
+        
       
       
 
