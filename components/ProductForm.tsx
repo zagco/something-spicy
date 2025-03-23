@@ -219,7 +219,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ sectionId, onProductCreated, 
         <TextField control={form.control} name="name" label="Product Name" placeholder="e.g., Chilli Powder" />
         <TextAreaField control={form.control} name="description" label="Description" placeholder="e.g., A fiery blend..." />
         <TextField control={form.control} name="price" label="Price" placeholder="e.g., 29.99" />
-        <TextField control={form.control} name="whereToBuy" label="Where to Buy" placeholder="e.g., Checkers, PnP" />
+        <TextField control={form.control} name="whereToBuy" label="Where to Buy" placeholder="name" />
         <TextField control={form.control} name="order" label="Order" placeholder="e.g., 1" type="number"/>
         <div className="flex flex-row space-x-2"> {/* Kept this flex-row for buttons */}
             <Button type="submit" disabled={isLoading} variant="default">
