@@ -35,7 +35,7 @@ const About: React.FC = () => {
             <p className="mb-4">
             Founded in 2022, Something Spicy SA began with a simple yet powerful mission: to bring high-quality, 
             affordable spices to our community. What started as a humble spice shop has since blossomed into 
-            something much more. As we've grown, so too has our passion for offering a wider variety of products. 
+            something much more. As we&apos;ve grown, so too has our passion for offering a wider variety of products. 
             Today, in addition to our carefully curated selection of spices, 
             we proudly offer a diverse range of items, including savory chips, rich sauces, and much more.
             </p>

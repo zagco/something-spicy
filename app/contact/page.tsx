@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
             <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
-            <p className="mb-4">We'd love to hear from you! Please fill out the form below to send us a message.</p>
+            <p className="mb-4">We&apos;d love to hear from you! Please fill out the form below to send us a message.</p>
             <form>
               <div className="mb-4">
                 <label className="block text-gray-700 mb-2" htmlFor="name">Name</label>

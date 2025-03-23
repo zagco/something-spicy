@@ -33,7 +33,7 @@ function Spices() {
         <Image className="rounded-3xl" width={400} height={400} src="https://firebasestorage.googleapis.com/v0/b/something-spicy.appspot.com/o/sixgun-removebg-preview.png?alt=media&token=2b7220b1-2b90-4c66-b0a1-82df3242cc05" alt="slide" />
     </div>
     <p className="raleway text-center text-lg mt-3">
-    Kick up the flavor with Crown National's Six Gun Grill Spice—bold, smoky, and perfect for grilling any meat to perfection
+    Kick up the flavor with Crown National&apos;s Six Gun Grill Spice—bold, smoky, and perfect for grilling any meat to perfection
     </p>
 </CarouselItem>
 
