@@ -160,7 +160,7 @@ export default function AdminPage() {
           >
             {section.name}
           </Button>
-        ))}
+        ))}   
       </div>
       {sections.map((section) => (
         <div className="flex space-x-2 mb-4" key={section.id}>
